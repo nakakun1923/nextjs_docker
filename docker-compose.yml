@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: book-manager-frontend
+    ports:
+      - "3030:3000"   # Reactの開発サーバーポート
+    volumes:
+      - ./src:/app
+    working_dir: /app
