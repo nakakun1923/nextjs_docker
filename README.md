@@ -1,6 +1,6 @@
 ## 環境構築手順(macを想定)
 0. 完成後のツリー<br>
-<img src="./tree.png" width="50%">
+<img src="./tree.png" width="20%">
 
 1. 本リポジトリをクローン（ディレクトリ名は任意、画像はfrontend）
 2. srcディレクトリを作成
